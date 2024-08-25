@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Frontend - Your Roll Number</title> <!-- Replace with your roll number -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Your Roll Number: ABCD123</h1> <!-- Replace with your roll number -->
+    <textarea id="jsonInput" rows="5" cols="50" placeholder='Enter JSON here (e.g., {"data": ["A", "C", "z"]})'></textarea>
+    <br>
+    <button id="submitBtn">Submit</button>
+    <br>
+    <select id="filterSelect" multiple>
+      <option value="alphabets">Alphabets</option>
+      <option value="numbers">Numbers</option>
+      <option value="highest_lowercase_alphabet">Highest Lowercase Alphabet</option>
+    </select>
+    <div id="responseOutput"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
